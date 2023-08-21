@@ -30,5 +30,7 @@ module.exports = {
     'jest.config.*',
     'rollup.config.*',
   ],
-  rules: {},
+  rules: {
+    'object-shorthand': 'off',
+  },
 }
